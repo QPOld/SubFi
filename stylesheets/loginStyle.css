@@ -1,0 +1,120 @@
+body {
+	background: url("../images/LoginBanner.png") no-repeat center top fixed;
+	background-size:200%;
+	position:absolute;
+	z-index:-1;
+}
+
+#LogoText {
+        font-size:80px;
+        font-family:"Shree Devanagari 714";
+        color:grey;
+        position:relative;
+        top:-90px;
+        left:69px;
+}
+#SubLogoText {
+	font-size:40px;
+	font-family:"Shree Devanagari 714";
+	color: #33334C;
+	position:relative;
+	left:125px;
+	bottom:320px;
+}
+#SubSubLogoText {
+	font-size:20px;
+	padding: 5px 0 5px 0;
+	position:relative;
+	left: 200px;
+	bottom:350px;
+	font-family:"Shree Devanagari 714";
+        color: #33334C;
+}
+@keyframes flickerAnimation { /* flame pulses */
+    0%   { opacity:0; }
+    15%   { opacity:0.65; }
+    30%   { opacity:1; }
+    60%  { opacity:1; }
+    75%   { opacity:0.75; }
+    90%   { opacity:0.35; }
+    100% { opacity:0; }
+}
+#LoginErrorText {
+	font-size:30px;
+	opacity:0;
+	font-weight:bold;
+	color:red;
+	font-family:"Shree Devanagari 714";
+	position:relative;
+	animation: flickerAnimation 5.0s;
+}
+#NewLoginText {
+	position:relative;
+	font-size:30px;
+	opacity:0;
+	font-family:"Shree Devanagari 714";
+	animation: flickerAnimation 5.0s;
+}
+
+#InputForms {
+	padding:0px;
+	position:relative;
+	left:475px;
+	bottom:600px;
+}
+
+#HomeButton {
+	opacity:0.0;
+	position:relative;
+	left:-15px;
+	bottom:220px;	
+}
+.RegisterButton {
+	position:relative;
+	left: 185%;
+	bottom:150px;
+	font-size:17px;
+	font-family:"Shree Devanagari 714";
+	color:grey;
+}
+
+input:hover {
+	color: #000000;
+        background: #9393B8;
+        border: 4px transparent #38a;
+        -webkit-transition: all 1.40s ease-in-out;
+        -moz-transition: all 1.40s ease-in-out;
+        -o-transition: all 1.40s ease-in-out;
+        transition: all 1.40s ease-in-out;
+
+}
+input:focus {
+        color: #000000;
+        background: #D6D6FF;
+        border: 4px transparent #38a;
+        -webkit-transition: all 1.40s ease-in-out;
+        -moz-transition: all 1.40s ease-in-out;
+        -o-transition: all 1.40s ease-in-out;
+        transition: all 1.40s ease-in-out;
+}
+input{
+        font-size: 24px;
+        width: 230px;
+        height: 55px;
+        border-radius: 14px;
+        cursor: pointer;
+        text-shadow:1px 1px 0px rgba(23,30,0,.25);
+        -webkit-transition: all 1.40s ease-in-out;
+        -moz-transition: all 1.40s ease-in-out;
+        -o-transition: all 1.40s ease-in-out;
+        transition: all 1.40s ease-in-out;
+}
+input[name='RegisterButton'] {
+    background:none!important;
+    border:none;
+    font-size:25px;
+    padding:0!important;
+    font: inherit;
+    cursor: pointer;
+    color:black;
+}

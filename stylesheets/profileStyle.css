@@ -1,0 +1,211 @@
+body {
+    background: url("../images/SubFiBanner.png") no-repeat center top fixed;
+    background-size: 200%;
+    position:absolute;
+}
+
+#LogoText {
+    font-size:80px;
+    font-family:"Shree Devanagari 714";
+    color:grey;
+    position:relative;
+    top:-90px;
+    left:69px;
+}
+#SubLogoText {
+    font-size:40px;
+    font-family:"Shree Devanagari 714";
+    color: #C1C1CB;
+    position:relative;
+    left:125px;
+    bottom:360px;
+}
+#SubSubLogoText {
+    font-size:20px;
+    font-family:"Shree Devanagari 714";
+    color: #BFBFD4;
+    position:relative;
+    left:200px;
+    bottom:400px;
+}
+
+#UserInfo {
+    margin:0px;
+    padding:0px;
+    width:100%;
+    border:1px solid #000000;
+    border-radius:1px;
+    position:relative;
+    left:-200px;
+}
+#UserInfo table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+#UserInfo tr:nth-child(odd) {
+    background-color:transparent;
+}
+#UserInfo tr:nth-child(even) {
+    background-color:transparent;
+}
+#UserInfo td {
+    vertical-align:middle;
+    border:1px solid #000000;
+    border-width:0px 1px 1px 0px;
+    text-align:center;
+    padding:13px;
+    font-family:"Shree Devanagari 714";
+    font-size:20px;
+    font-weight:normal;
+    color:white;
+}
+#UserInfo tr:hover td{
+    background:-o-linear-gradient(bottom, #2c4c2c 5%, #c2c4c2 100%);
+    background-color:#4c4c4c;
+}
+
+input[name='MenuButton'] {
+    background:none!important;
+    border:none;
+    font-size:25px;
+    padding:0!important;
+    font: inherit;
+    cursor: pointer;
+    color:black;
+
+}
+#UpdateButton {
+    position:relative;
+    left:750px;
+    bottom:500px;
+}
+#HomeButton {
+	opacity:0.0;
+	position:relative;
+	left:-15px;
+	bottom:220px;	
+}
+input:hover,
+input:focus {
+        opacity: 1.0;
+        color: #ffffff;
+        background: #A79BB9;
+        border: 4px transparent #38a;
+        -webkit-transition: all 1.40s ease-in-out;
+        -moz-transition: all 1.40s ease-in-out;
+        -o-transition: all 1.40s ease-in-out;
+        transition: all 1.40s ease-in-out;
+}
+input{
+        font-size: 24px;
+        width: 230px;
+        height: 55px;
+        border-radius: 14px;
+        cursor: pointer;
+        text-shadow:1px 1px 0px rgba(23,30,0,.25);
+        -webkit-transition: all 1.40s ease-in-out;
+        -moz-transition: all 1.40s ease-in-out;
+        -o-transition: all 1.40s ease-in-out;
+        transition: all 1.40s ease-in-out;
+}
+#ForumText a{
+  border: none;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+} 
+#ForumText{
+  position:relative;
+  left:800px;
+  bottom:800px;
+  height: 37px;
+  display: block;
+  border: 1px solid transparent;
+  border-radius: 14px;
+  width: 750px;
+  border-color: transparent;
+  margin: 0;
+  padding: 0px 20px;
+}
+#ForumText > ul {
+  list-style: inside none;
+  margin: 0;
+  padding: 0;
+}
+#ForumText > ul > li {
+  list-style: inside none;
+  float: none;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#ForumText > ul > li > a {
+  outline: none;
+  display: block;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: -1px -1px -1px rgba(10, 10, 10, 0.24);
+  font-weight: 500;
+  font-size: 30px;
+  font-family:"Shree Devanagari 714";
+  color: #ffffff;
+  padding: 20px 20px;
+}
+#ForumText ul li.has-sub:hover > ul,
+#ForumText ul li.has-sub:hover > div {
+  display: block;
+}
+#ForumText > ul > li.has-sub > a:hover,
+#ForumText > ul > li.has-sub:hover > a {
+  background: #3f3f3f;
+  color: #ffffff;
+  opacity: 0.75;
+  border-radius:14px;
+  border-color: transparent;
+}
+#ForumText ul li > ul,
+#ForumText ul li > div {
+  display: none;
+  width: auto;
+  position: absolute;
+  top: 38px;
+  border-radius: 0px 14px 14px 14px;
+  z-index: 999;
+  padding: 10px 0;
+}
+#ForumText ul li > ul {
+  width: 200px;
+}
+#ForumText ul li > ul li {
+  display: block;
+  list-style: inside none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#ForumText ul li > ul li a {
+  outline: none;
+  display: block;
+  position: relative;
+  font-size:25px;
+  font-family:"Shree Devanagari 714";
+  color: #808080;
+  text-decoration: none;
+  text-shadow: -1px -1px -1px rgba(10, 0, 10, 0.25);
+  margin: 0;
+  padding: 20px 20px;
+}
+#ForumText,
+#ForumText ul ul > li:hover > a,
+#ForumText ul ul li a:hover {
+  background: transparent;
+}
+#ForumText ul ul a:hover {
+  color: #ffffff;
+}

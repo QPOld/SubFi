@@ -1,0 +1,341 @@
+body {
+        background: url("../images/AccountBanner.png") no-repeat center top fixed;
+        background-size: 200%;
+	position:absolute;
+	z-index:-1;
+}
+
+#LogoText {
+        font-size:80px;
+        font-family:"Shree Devanagari 714";
+        color:grey;
+        position:relative;
+        top:-90px;
+        left:69px;
+}
+#SubLogoText {
+        font-size:40px;
+        font-family:"Shree Devanagari 714";
+        color: #33334C;
+        position:relative;
+        left:125px;
+        bottom:180px;
+}
+#PostText {
+	font-size:30px;
+        font-family:"Shree Devanagari 714";
+        color: #33334C;
+        position:relative;
+        left:125px;
+        bottom:180px;
+}
+#TitleText {
+	font-size:30px;
+        font-family:"Shree Devanagari 714";
+        color: #33334C;
+        position:relative;
+        left:50px;
+        bottom:0px;
+	padding:5px;
+	width:700px;
+	word-wrap:break-word;
+	text-align:center;
+	background-color:white;
+	border-radius:10px;
+	border:3px outset grey;
+	box-shadow: inset 1px 0 1px 1px #010;
+	-webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+	-moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+
+}
+#ContentText {
+	font-size:30px;
+        font-family:"Shree Devanagari 714";
+        color: #33334C;
+	width:700px;
+        position:relative;
+        left: 50px;
+        bottom:0px;
+	padding:5px;
+	text-align:center;
+	background-color:white;
+	border-radius:10px;
+	border:3px outset grey;
+	box-shadow: inset 1px 0 1px 1px #010;
+	-webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+	-moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+	word-wrap:break-word;
+}
+#UserNameText {
+    font-size:15px;
+    font-family:"Shree Devanagari 714";
+    color: #33334C;
+    position:relative;
+    left:500px;
+    bottom:15px;
+}
+#CommentText {
+    font-size:40px;
+    font-weight:bold;
+    font-family:"Shree Devanagari 714";
+    color: #33334C;
+    position:relative;
+    left:000px;
+    bottom:15px;
+}
+
+#PostForm {
+	position:relative;
+	left:0px;
+	bottom:0px;
+}
+#TitleForm {
+	position:relative;
+	left:50px;
+	bottom:0px;
+}
+#ContentForm {
+	position:relative;
+	left: 50px;
+	bottom:-50px;
+}
+#FullTitleForm {
+        position:relative;
+        left:50px;
+        bottom:50px;
+	padding:15px;
+        z-index:9;
+}
+#FullContentForm {
+	width:700px;
+        position:relative;
+        left: 50px;
+        bottom:100px;
+	text-align:center;
+	background-color:white;
+	border-radius:10px;
+	border:3px outset grey;
+	box-shadow: inset 1px 0 1px 1px #010;
+	-webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+	-moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+	word-wrap:break-word;
+}
+
+#PostLink a {
+	text-decoration:none;
+}
+#PostLink {
+	height:100px;
+	width:700px;
+	text-align:center;
+	padding:0;
+	background-color:white;
+	word-wrap:break-word;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-radius:10px;
+	border:3px outset grey;
+	box-shadow: inset 1px 0 1px 1px #010;
+	-webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
+	-moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
+}
+
+#ReplyForm {
+	position:relative;
+	padding:10px;
+	bottom:-100px;
+	left:50px;
+}
+textarea[name='replyDetail'] {
+	height:150px;
+	width:85%;
+}
+#MakeReplyButton {
+}
+
+
+#CreatePostButton {
+	font-family:"Shree Devanagari 714";
+	font-size:20px;
+	font-weight:250;
+	height:50px;
+	width:100px;
+	position:relative;
+	left:700px;
+	bottom:50px;
+	border: 4px transparent #38a;
+	
+}
+#MakePostButton {
+	position:relative;
+	left:700px;
+	bottom:280px;
+}
+#HomeButton {
+	position:relative;
+	left:55px;
+	bottom:367px;
+	opacity:0.0;
+	z-index:10;
+}
+input[name='makePost'] {
+    height:50px;
+    width:100px;
+    border: 4px transparent #38a; 
+    -webkit-transition: all 1.40s ease-in-out;
+    -moz-transition: all 1.40s ease-in-out;
+    -o-transition: all 1.40s ease-in-out;
+    transition: all 1.40s ease-in-out;
+}
+input:hover,
+input:focus {
+        color: #000000;
+        background: #A79BB9;
+        border: 4px transparent #38a;
+        -webkit-transition: all 1.40s ease-in-out;
+        -moz-transition: all 1.40s ease-in-out;
+        -o-transition: all 1.40s ease-in-out;
+        transition: all 1.40s ease-in-out;
+}
+input{
+        font-size: 20px;
+        border-radius: 14px;
+        cursor: pointer;
+        text-shadow:1px 1px 0px rgba(23,30,0,.25);
+        -webkit-transition: all 1.40s ease-in-out;
+        -moz-transition: all 1.40s ease-in-out;
+        -o-transition: all 1.40s ease-in-out;
+        transition: all 1.40s ease-in-out;
+}
+input[name='HomeButton']{
+	width:225px;
+	height:55px;
+}
+
+textarea[name='forumDetail'] {
+	font-size: 20px;
+        border-radius: 14px;
+        cursor: pointer;
+        text-shadow:1px 1px 0px rgba(23,30,0,.25);
+        -webkit-transition: all 1.40s ease-in-out;
+        -moz-transition: all 1.40s ease-in-out;
+        -o-transition: all 1.40s ease-in-out;
+        transition: all 1.40s ease-in-out;
+	height:150px;
+	width:600px;
+	padding-top:0;
+	padding-left:0;
+}
+textarea:hover,
+textarea:focus {
+	opacity: 1.0;
+        color: #000000;
+        background: #A79BB9;
+        border: 4px transparent #38a;
+        -webkit-transition: all 1.40s ease-in-out;
+        -moz-transition: all 1.40s ease-in-out;
+        -o-transition: all 1.40s ease-in-out;
+        transition: all 1.40s ease-in-out;
+}
+
+
+
+#ForumText a{
+  border: none;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+} 
+#ForumText{
+  position:relative;
+  left:25%;
+  bottom:250px;
+  height: 37px;
+  display: block;
+  border: 1px solid transparent;
+  border-radius: 14px;
+  width: 550px;
+  border-color: transparent;
+  margin: 0;
+  padding: 0px 20px;
+}
+#ForumText > ul {
+  list-style: inside none;
+  margin: 0;
+  padding: 0;
+}
+#ForumText > ul > li {
+  list-style: inside none;
+  float: none;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#ForumText > ul > li > a {
+  outline: none;
+  display: block;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: -1px -1px -1px rgba(10, 10, 10, 0.24);
+  font-weight: 500;
+  font-size: 20px;
+  font-family:"Shree Devanagari 714";
+  color: #000000;
+  padding: 20px 20px;
+}
+#ForumText ul li.has-sub:hover > ul,
+#ForumText ul li.has-sub:hover > div {
+  display: block;
+}
+#ForumText > ul > li.has-sub > a:hover,
+#ForumText > ul > li.has-sub:hover > a {
+  background: #3f3f3f;
+  color: #ffffff;
+  opacity: 0.5;
+  border-radius:14px;
+  border-color: transparent;
+}
+#ForumText ul li > ul,
+#ForumText ul li > div {
+  display: none;
+  width: auto;
+  position: absolute;
+  top: 38px;
+  background: transparent;
+  border-radius: 0px 14px 14px 14px;
+  z-index: 999;
+  padding: 10px 0;
+}
+#ForumText ul li > ul {
+  width: 200px;
+}
+#ForumText ul li > ul li {
+  display: block;
+  list-style: inside none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#ForumText ul li > ul li a {
+  outline: none;
+  display: block;
+  position: relative;
+  font-size:15px;
+  font-family:"Shree Devanagari 714";
+  color: #000000;
+  text-decoration: none;
+  text-shadow: -1px -1px -1px rgba(10, 0, 10, 0.25);
+  margin: 0;
+  padding: 20px 20px;
+}
+#ForumText,
+#ForumText ul ul > li:hover > a,
+#ForumText ul ul li a:hover {
+  background: transparent;
+}
+#ForumText ul ul a:hover {
+  color: #ffffff;
+}

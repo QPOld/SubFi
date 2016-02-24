@@ -1,0 +1,92 @@
+<!--
+	SubFi - 2015
+	Michael Parkinson
+
+	This is the Non-User Menu Page (NUMP).
+	    As of 9-2015 NUMP options include a user login and registration.
+	    More NUMP options will come.
+	
+--!>
+<!DOCTYPE html>
+<html>
+
+    <head>
+	<meta charset='utf-8'>
+	<meta name='description' content="Welcome to SubFi, a web app/server project.">
+	<meta name="keywords" content="SubFi,subfi,subfi app,subfi server,subfi webserver">
+	<meta name="author" content="SubFi">
+
+
+	<title> SubFi </title>
+	<!--All Style Sheets are in ../stylesheets--!>
+	<link rel='stylesheet' type='text/css' href='../stylesheets/indexStyle.css?<?php echo
+	time();?>' media='screen' />
+		
+    </head>
+
+    <body>
+	<!--LogoText is the main css for the subfi logo. This is used on every page.--!>
+	<div id="LogoText">
+	   
+	   <p> SubFi </p>
+	
+	</div>
+
+	<!--This div contains the entire login form. The login script loginAuth is private.--!>
+	<div id="InputForms">
+	    <form action='../private/loginAuth.php' method='post'>
+
+		<p>
+		    <input type='text' name='emailAddress' placeholder='Email'>
+		    <input type='text' name='userAccount' placeholder='Name'>
+		    <input type='password' name='userPassword' placeholder='Password'>
+		    <input type='submit' value='Login'>
+		</p>
+	    
+	    </form>
+	    <p>
+		Registration is Closed. <a href='../html/contact.html'> Contact SubFi</a>.
+	    </p>
+	</div>
+
+
+	
+	<!--
+	<div class="LoginButton">
+	    
+	    <form action="/php/loginPage.php" method="post">
+		<p><input type="submit" value="Login" /></p>
+	    </form>
+	
+	</div>
+
+	<div class="RegisterButton">
+	    
+	    <p> Need To Create An Account? </p>
+	    
+	    <form action="../php/registerPage.php" method="post">
+		<p><input type="submit" value="Register" name='RegisterButton'/></p>
+	    </form>
+	
+	</div>
+
+	<div id='SiteInfo'>
+	    <p>
+		Welcome to SubFi.
+	    </p>
+
+	</div>
+
+      	<div id='ContactLink'>
+	    
+	    <p>
+		<a href='http://www.subfi.info/html/contact.html'> Contact SubFi </a>
+	    </p>
+	    <p>
+		All Rights Reserved. Copyright &copy; 2015. 
+	    </p>
+        
+	</div>
+	--!>
+    </body>
+</html>
